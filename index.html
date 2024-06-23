@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>AI Book Generator</title>
+  </head>
+  <body>
+    <header>
+      <h1>📖 Book Generator 📖</h1>
+    </header>
+    <h2>Welcome to the book generator, please write down a subject.</h2>
+    <div class="form-container">
+      <form id="search-book-form" class="search-book-form">
+        <input
+          type="text"
+          placeholder="Enter book name"
+          autofocus
+          required
+          autocomplete="off"
+          class="instruction"
+          id="users-instruction"
+        />
+        <input type="submit" class="submit-button" />
+      </form>
+    </div>
+    <div calss="book hidden blink" id="books"></div>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
