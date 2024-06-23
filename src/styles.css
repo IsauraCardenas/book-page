@@ -1,0 +1,33 @@
+header {
+  text-align: center;
+  backdrop-filter: blur(40px);
+}
+
+body {
+  background-image: url("https://media.istockphoto.com/id/470721440/vector/books-seamless-pattern.jpg?s=612x612&w=0&k=20&c=SBWwuWALkou5kDTDq6_V7SGuBMJ4vxTK3y15B9ZSFDE=");
+  text-align: center;
+}
+
+.search-book-form {
+  padding: 20px 30px;
+  border: none;
+  border-radius: 20px;
+  background-color: #9fa9c3;
+}
+
+.instruction {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.submit-button {
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 10px 25px;
+  color: black;
+  background-color: whitesmoke;
+}
